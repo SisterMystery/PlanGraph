@@ -9,6 +9,8 @@ import java.util.Scanner;
  * Created by torrentglenn on 5/27/15.
  */
 public class CommitteeMapper {
+    //This is just a horrible object for reading from the list we
+    //happened to get for processing. Obviously this part should not be permament
     public File textFile;
     public Scanner textScanner;
     public HashMap<String, ArrayList<String>> committeeMap = new HashMap<String, ArrayList<String>>();
@@ -19,6 +21,8 @@ public class CommitteeMapper {
     }
 
     public void map(){
+        //use scanners to parse the text file
+        //removes advisor stars also
         String currentKey = "";
         String s;
         while(textScanner.hasNext()){

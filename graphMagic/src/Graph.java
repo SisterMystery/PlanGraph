@@ -12,12 +12,28 @@ public class Graph {
         vertexHashMap = vhm;
     }
 
+    public Graph(ArrayList<Vertex> V){
+        for (Vertex v: V){
+            vertexHashMap.put(v.getId(),v);
+        }
+    }
+
     public ArrayList<Vertex> getVertices(){
         ArrayList<Vertex> vlist = new ArrayList<Vertex>();
         for(Map.Entry e: vertexHashMap.entrySet()){
             vlist.add((Vertex)e .getValue());
         }
-        return vlist;
+        return (ArrayList<Vertex>) vlist.clone();
+    }
+
+    public int getNumColors(){
+        int i = 0;
+        for(Vertex v: getVertices()){
+            if (v.getColor() > i)
+                i = v.getColor();
+        }
+
+        return i;
     }
 
     public void addVertex(Vertex v){
