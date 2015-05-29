@@ -40,7 +40,7 @@ public class Colorer {
         for(ArrayList<Vertex> vlist: vertexSeqs){
             color(vlist);
             Graph colorG = new Graph(vlist);
-            System.out.println(colorG.getNumColors());
+          //  System.out.println(colorG.getNumColors());
             if(bestColoring == 0 || colorG.getNumColors() < bestColoring){
                 bestColoring = colorG.getNumColors();
                 outGraph = colorG;
@@ -57,7 +57,7 @@ public class Colorer {
         for(long i = 0; i < attempts ; i++){
 
             gColor = new Graph(randomColor(g.getVertices()));
-            System.out.println(gColor.getNumColors());
+           // System.out.println(gColor.getNumColors());
             if(bestColoring == 0 || gColor.getNumColors() < bestColoring){
                 bestColoring = gColor.getNumColors();
                 outGraph = gColor;

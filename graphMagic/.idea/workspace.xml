@@ -46,13 +46,13 @@
       <file leaf-file-name="Colorer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Colorer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5391304" vertical-offset="0" max-vertical-offset="1320">
-              <caret line="59" column="54" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.49565217" vertical-offset="600" max-vertical-offset="1320">
+              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#404#413#0" expanded="true" />
                 <element signature="e#992#1011#0" expanded="true" />
-                <element signature="e#2150#2158#0" expanded="true" />
+                <element signature="e#2154#2162#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -613,13 +613,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Colorer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5391304" vertical-offset="0" max-vertical-offset="1320">
-          <caret line="59" column="54" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.49565217" vertical-offset="600" max-vertical-offset="1320">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#404#413#0" expanded="true" />
             <element signature="e#992#1011#0" expanded="true" />
-            <element signature="e#2150#2158#0" expanded="true" />
+            <element signature="e#2154#2162#0" expanded="true" />
           </folding>
         </state>
       </provider>
